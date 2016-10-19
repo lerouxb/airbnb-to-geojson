@@ -1,0 +1,24 @@
+{
+  "name": "airbnb-to-geojson",
+  "version": "0.0.1",
+  "description": "Export an Airbnb listing's neighbourhood map markers as GeoJSON.",
+  "main": "lib/airbnb-to-geojson.js",
+  "scripts": {
+    "test": "mocha test/"
+  },
+  "keywords": [
+    "airbnb",
+    "geojson",
+    "mapbox"
+  ],
+  "author": "Le Roux Bodenstein <lerouxb@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^3.1.2"
+  },
+  "dependencies": {
+    "bluebird": "^3.4.6",
+    "cheerio": "^0.22.0",
+    "node-fetch": "^1.6.3"
+  }
+}
