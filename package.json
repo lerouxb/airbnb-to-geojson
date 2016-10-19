@@ -20,5 +20,9 @@
     "bluebird": "^3.4.6",
     "cheerio": "^0.22.0",
     "node-fetch": "^1.6.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:lerouxb/airbnb-to-geojson.git"
   }
 }
